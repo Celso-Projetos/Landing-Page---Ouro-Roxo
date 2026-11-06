@@ -34,3 +34,6 @@
 .instagram-badge::before {
   background-image: url("/Landing-Page---Ouro-Roxo/assets/instagram-ouro-roxo.svg");
 }
+
+.sac-email { margin-top: 24px; padding-top: 18px; border-top: 1px solid #32163155; }
+.contact-band .sac-email p { margin: 6px 0 0; }
