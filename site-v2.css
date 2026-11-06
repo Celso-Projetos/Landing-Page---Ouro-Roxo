@@ -42,3 +42,10 @@
 .sac-email ul { padding-left: 22px; margin: 8px 0; }
 .sac-email li a { display: inline-block; padding-block: 5px; }
 .sac-email strong { overflow-wrap: anywhere; }
+
+.country-band { padding-block: 52px; background: var(--plum); color: var(--cream); }
+.country-band h2 { font-size: clamp(28px, 4vw, 44px); margin-bottom: 12px; }
+.country-list { display: flex; flex-wrap: wrap; gap: 14px; list-style: none; padding: 0; margin: 22px 0; }
+.country-list li { display: flex; align-items: center; gap: 12px; border: 1px solid #e2d87955; border-radius: 12px; padding: 12px 16px; }
+.country-list img { flex: none; border-radius: 3px; }
+.country-band a { color: var(--gold); }
