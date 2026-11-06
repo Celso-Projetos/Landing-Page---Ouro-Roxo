@@ -27,10 +27,10 @@
   height: 40px;
   border: 1px solid var(--gold);
   border-radius: 50%;
-  background: var(--plum) url("/assets/whatsapp-ouro-roxo.svg") center / 25px no-repeat;
+  background: var(--plum) url("/Landing-Page---Ouro-Roxo/assets/whatsapp-ouro-roxo.svg") center / 25px no-repeat;
   box-shadow: 0 4px 12px #160b2030;
 }
 
 .instagram-badge::before {
-  background-image: url("/assets/instagram-ouro-roxo.svg");
+  background-image: url("/Landing-Page---Ouro-Roxo/assets/instagram-ouro-roxo.svg");
 }
