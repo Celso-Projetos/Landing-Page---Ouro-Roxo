@@ -37,3 +37,8 @@
 
 .sac-email { margin-top: 24px; padding-top: 18px; border-top: 1px solid #32163155; }
 .contact-band .sac-email p { margin: 6px 0 0; }
+
+.sac-email summary { cursor: pointer; font-weight: 700; margin-top: 6px; }
+.sac-email ul { padding-left: 22px; margin: 8px 0; }
+.sac-email li a { display: inline-block; padding-block: 5px; }
+.sac-email strong { overflow-wrap: anywhere; }
