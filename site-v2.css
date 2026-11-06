@@ -43,10 +43,22 @@
 .sac-email li a { display: inline-block; padding-block: 5px; }
 .sac-email strong { overflow-wrap: anywhere; }
 
-.hero-flags { display: flex; flex-wrap: wrap; gap: 12px; list-style: none; margin: 0 0 24px; padding: 0; perspective: 500px; }
+.hero-flags { display: flex; flex-wrap: wrap; gap: 12px; list-style: none; margin: 0; padding: 0; perspective: 500px; }
 .hero-flags li { position: relative; border: 1px solid #e2d87980; border-radius: 6px; box-shadow: 0 3px #7e603d, 0 7px 12px #160b2070; overflow: hidden; transition: transform .25s ease; }
-.hero-flags img { display: block; width: clamp(36px, 9vw, 48px); height: auto; aspect-ratio: 3 / 2; object-fit: cover; }
+.hero-flags img { display: block; width: clamp(19px, 5vw, 29px); height: auto; aspect-ratio: 3 / 2; object-fit: cover; }
 .hero-flags li::after { content: ""; position: absolute; inset: 0; background: linear-gradient(125deg, #ffffff35, transparent 45%, #150b3320); pointer-events: none; }
 @media (hover: hover) and (prefers-reduced-motion: no-preference) {
   .hero-flags li:hover { transform: translateY(-5px) rotateX(12deg) rotateY(-12deg) scale(1.08); }
+}
+
+.nav-market { display: flex; flex-direction: column; align-items: flex-end; gap: 10px; flex: none; margin-left: auto; }
+.nav-market .hero-flags { gap: 7px; flex-wrap: nowrap; }
+.nav-market .nav-cta { white-space: nowrap; }
+@media (max-width: 1100px) {
+  .nav:has(.nav-market) { gap: 12px; }
+  .nav:has(.nav-market) .desktop-nav { display: none; }
+  .nav:has(.nav-market) .mobile-menu { display: block; margin-left: 0; }
+}
+@media (max-width: 800px) {
+  .nav-market .hero-flags { gap: 5px; }
 }
