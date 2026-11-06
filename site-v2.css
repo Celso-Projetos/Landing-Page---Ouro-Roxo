@@ -43,9 +43,10 @@
 .sac-email li a { display: inline-block; padding-block: 5px; }
 .sac-email strong { overflow-wrap: anywhere; }
 
-.country-band { padding-block: 52px; background: var(--plum); color: var(--cream); }
-.country-band h2 { font-size: clamp(28px, 4vw, 44px); margin-bottom: 12px; }
-.country-list { display: flex; flex-wrap: wrap; gap: 14px; list-style: none; padding: 0; margin: 22px 0; }
-.country-list li { display: flex; align-items: center; gap: 12px; border: 1px solid #e2d87955; border-radius: 12px; padding: 12px 16px; }
-.country-list img { flex: none; border-radius: 3px; }
-.country-band a { color: var(--gold); }
+.hero-flags { display: flex; flex-wrap: wrap; gap: 12px; list-style: none; margin: 0 0 24px; padding: 0; perspective: 500px; }
+.hero-flags li { position: relative; border: 1px solid #e2d87980; border-radius: 6px; box-shadow: 0 3px #7e603d, 0 7px 12px #160b2070; overflow: hidden; transition: transform .25s ease; }
+.hero-flags img { display: block; width: clamp(36px, 9vw, 48px); height: auto; aspect-ratio: 3 / 2; object-fit: cover; }
+.hero-flags li::after { content: ""; position: absolute; inset: 0; background: linear-gradient(125deg, #ffffff35, transparent 45%, #150b3320); pointer-events: none; }
+@media (hover: hover) and (prefers-reduced-motion: no-preference) {
+  .hero-flags li:hover { transform: translateY(-5px) rotateX(12deg) rotateY(-12deg) scale(1.08); }
+}
