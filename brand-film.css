@@ -13,4 +13,4 @@
 @media(prefers-reduced-motion:reduce){.filmmaker-art img{transform:scale(.97)!important;transition:none!important}.filmmaker-progress{transition:none!important}}
 .motion-reduced .filmmaker-art img{transform:scale(.97)!important;transition:none!important}.motion-reduced .filmmaker-progress{transition:none!important}
 
-.filmmaker-art img[src="/Landing-Page---Ouro-Roxo/assets/filmmaker-versao-2.webp"]{object-fit:cover;object-position:center}
+.filmmaker-art img[src="/Landing-Page---Ouro-Roxo/assets/filmmaker-ouro-roxo-realista.webp"]{object-fit:cover;object-position:center}
